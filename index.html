@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>КИНО XDHD</h1>
+    <hr>
+</header>
+<div class="container">
+    <div class="choice">
+        <p>Выберите фильм:
+            <br>
+            <br>
+            <select name="films" id="films" >
+                <option value="">Казаки разбойники</option>
+                <option value="">Маша и медведь</option>
+                <option value="">Железный человек</option>
+                <option value="">Шрек</option>
+                <option value="">Москва слезам не верит</option>
+            </select>
+
+        <p>Выберите дату:
+            <br>
+            <br>
+            <input type="date" name="calendar" value="2012-06-01"
+                   max="2019-03-30" min="2019-03-23">
+
+        <p>Выберите время:
+            <br>
+            <br>
+            <select name="times" id="times">
+                <option value="">10:00</option>
+                <option value="">12:00</option>
+                <option value="">14:00</option>
+                <option value="">16:00</option>
+                <option value="">18:00</option>
+                <option value="">20:00</option>
+            </select>
+            <br>
+            <br>
+
+            <input type="button" value="Забронировать" name="button" class="button" OnClick="fun()">
+    </div>
+
+    <div class="cinema-hall">
+        <script src="script.js"></script>
+    </div>
+</div>
+<footer>
+    <ul>
+        <a href=""><li>О кинотеатре</li></a>
+        <a href=""><li>FAQ</li></a>
+        <a href=""><li>Правила</li></a>
+        <a href=""><li>Контакты</li></a>
+    </ul>
+</footer>
+
+</body>
+</html>
